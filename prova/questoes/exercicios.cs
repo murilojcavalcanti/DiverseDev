@@ -81,8 +81,7 @@ namespace prova.questoes
             int n1 = 0;
             int n2 = 0;
             int multiplicacao = 0;
-            int divisao = 0;
-            int sinal = 1;
+            int divisaointeira = 0;
             bool isnumericN1 = true;
             bool isnumericN2 = true;
             try
@@ -100,20 +99,8 @@ namespace prova.questoes
                 }
 
 
-                if (isnumericN1 && isnumericN2)
+                if (isnumericN1 && isnumericN2 && n1>0 && n2>0)
                 {
-
-                    if (n1 < 0)
-                    {
-                        n1 = -n1;
-                        sinal = -sinal;
-                    }
-
-                    if (n2 < 0)
-                    {
-                        n2 = -n2;
-                        sinal = -sinal;
-                    }
 
                     for (int i = 0; i < n1; i++)
                     {
@@ -123,16 +110,12 @@ namespace prova.questoes
                     while (n1 >= n2)
                     {
                         n1 -= n2;
-                        divisao++;
+                        divisaointeira++;
                     }
 
-                    if (sinal < 0)
-                    {
-                        multiplicacao = -multiplicacao;
-                    }
-
+            
                     Console.WriteLine($"Multiplicação: {multiplicacao}");
-                    Console.WriteLine($"Divisão Inteira: {divisao}");
+                    Console.WriteLine($"Divisão Inteira: {divisaointeira}");
 
                 }
                 else
