@@ -33,7 +33,6 @@ void ExibirMenu()
     Console.WriteLine("\nDigite 1 para o Exercicio 1: ");
     Console.WriteLine("Digite 2 para o Exercicio 2: ");
     Console.WriteLine("Digite 3 para o Exercicio 3: ");
-    Console.WriteLine("Digite 4 para o Exercicio 4: ");
     Console.WriteLine("Digite 0 para sair: ");
 }
 
@@ -54,11 +53,6 @@ void menu(int opcao)
             break;
         case 3:
             exercicios.exercicio03();
-            Console.WriteLine("Aperte uma tecla para voltar ao menu");
-            Console.ReadKey();
-            break;
-        case 4:
-            exercicios.exercicio04();
             Console.WriteLine("Aperte uma tecla para voltar ao menu");
             Console.ReadKey();
             break;

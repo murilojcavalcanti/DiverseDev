@@ -1,0 +1,14 @@
+﻿
+Respostas:
+
+Questão 4:
+	resposta: C) 1
+	A resposta é pois quando a variavel numero recebe o convert.ToInt16(!(21>21)) o valor 21 não é maior que 21, é igual e quando a resposta é falsa o valor zero,
+	mas nesse caso como o falso é negado então se torna verdadeiro que é igual a um, por isso a variavel numero recebe 1;
+
+
+Questão 5:
+	Resposta: E)–5, –2, 1, 4, 7
+	A estrutura de repetição começa a variavel i recebendo -5 e a cada repetição ela irá receber +3, então será executado o codigo dentro das 
+	chaves que é imprimir a variavel i que é -5, apos isso ela irá receber +3, ou seja (-5+3 = -2) e então irá imprimir -2 até que a variavel 
+	i seja menor ou igual a 7, ou seja irá imprimir a sequencia : -5,-2,1,4,7
