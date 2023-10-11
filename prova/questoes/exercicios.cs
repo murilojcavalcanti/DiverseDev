@@ -88,7 +88,7 @@ namespace prova.questoes
             {
                 Console.WriteLine("Digite o primeiro valor");
                 isnumericN1 = int.TryParse(Console.ReadLine(), out n1);
-                if (!isnumericN1)
+                if (!isnumericN1 || n1<0)
                 {
                     Console.WriteLine("Entrada invalida");
                 }
@@ -99,7 +99,7 @@ namespace prova.questoes
                 }
 
 
-                if (isnumericN1 && isnumericN2 && n1>0 && n2>0)
+                if (isnumericN2 && n2>0)
                 {
 
                     for (int i = 0; i < n1; i++)
